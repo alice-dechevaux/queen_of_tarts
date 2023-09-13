@@ -2110,7 +2110,7 @@ input, select, textarea {
 		right: -37%;
 	}
 
-/* Nav2 */
+
 
 .nav2 h4 {
 	text-align: center;
@@ -2124,6 +2124,10 @@ input, select, textarea {
 	font-size: 1em;
 	text-align: center;
 	padding-left: 0;
+}
+
+.nav2 a {
+	border-bottom: none;
 }
 
 div.nav2 {
@@ -2638,7 +2642,12 @@ div.nav2 {
 			#sidebar {
 				padding-top: 6em;
 			}
+		
+		/* Nav2 */
 
+		#nav2 {
+			display: none;
+		}
 	}
 
 /* Small */
@@ -2793,7 +2802,7 @@ div.nav2 {
 				}
 			
 			.nav2 {
-				padding-left: 10px;
+				display: none;
 			}
 		/* Copyright */
 
